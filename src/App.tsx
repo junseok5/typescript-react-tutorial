@@ -1,13 +1,15 @@
 import * as React from 'react'
 import Profile from './components/Profile'
-import Counter from './components/Counter'
+import CounterContainer from './containers/CounterContainer'
+import TodoListContainer from './containers/TodoListContainer'
 
 class App extends React.Component {
   public render() {
     return (
       <div>
         <Profile name="준석" job="미친놈" />
-        <Counter counter={1} />
+        <CounterContainer />
+        <TodoListContainer />
       </div>
     )
   }

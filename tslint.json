@@ -11,6 +11,11 @@
     "ordered-imports": [false],
     "object-literal-sort-keys": [false],
     "interface-name": [false],
-    "member-access": [false]
+    "member-access": [false],
+    "jsx-no-lambda": false,
+    "no-any": false,
+    "interface-over-type-literal": false,
+    "max-classes-per-file": false,
+    "no-angle-bracket-type-assertion": false
   }
 }
